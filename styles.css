@@ -20,6 +20,9 @@ body {
     z-index: 0;
     border-radius: 20px;
     outline: solid #77281c;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .glow-on-hover:before {

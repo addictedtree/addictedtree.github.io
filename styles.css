@@ -1,3 +1,4 @@
+@media screen {
 body {
     background-image: url(images/background.jpg);
     background-size: cover;
@@ -40,7 +41,7 @@ body {
 }
 
 .glow-on-hover {
-    width: 400px;
+    width: 365px;
     height: 75px;
     border: none;
     outline: none;
@@ -175,6 +176,20 @@ body {
     padding-bottom: 1px;
     position: relative;
     padding: 1em;
+}
+
+.box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
     backdrop-filter: blur(10px);
     z-index: -1;
 }
@@ -222,4 +237,6 @@ body {
 p {
     color: rgb(255, 255, 255);
     text-align: center
+}
+
 }

@@ -41,7 +41,7 @@ body {
 }
 
 .glow-on-hover {
-    width: 355px;
+    width: 346px;
     height: 75px;
     border: none;
     outline: none;
@@ -147,7 +147,7 @@ button:hover span:after {
 }
 
 img {
-    max-width: 350px;
+    max-width: 346px;
     border-radius: 25px;
     display: block;
     margin-left: auto;

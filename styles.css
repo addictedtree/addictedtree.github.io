@@ -232,6 +232,10 @@ body {
     margin-right: auto;
     margin-top: 15px;
 }
+
+.twitter:hover {
+    opacity: 0.7;
+}
 p {
     color: rgb(255, 255, 255);
     text-align: center

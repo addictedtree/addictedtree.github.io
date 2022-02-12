@@ -1,6 +1,6 @@
 @media screen {
 body {
-    background-image: url(images/background.jpg);
+    background-image: url(images/background.png);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Rubik', sans-serif;
@@ -14,12 +14,12 @@ body {
     border: none;
     outline: none;
     color: rgb(255, 255, 255);
-    background: #77281c;
+    background: #F6CC7C;
     cursor: pointer;
     position: relative;
     z-index: 0;
     border-radius: 20px;
-    outline: solid #77281c;
+    outline: solid #F6CC7C;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -28,7 +28,7 @@ body {
 
 .glow-on-hover:before {
     content: '';
-    background: #77281c;
+    background: #c49846;
     position: absolute;
     top: -2px;
     left: -2px;
@@ -48,7 +48,7 @@ body {
 }
 
 .glow-on-hover:active:after {
-    background: #77281c;
+    background: #8f6e31;
 }
 
 .glow-on-hover:hover:before {
@@ -61,7 +61,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #bc3d2a;
+    background: #c49846;
     left: 0;
     top: 0;
     border-radius: 20px;
@@ -69,7 +69,7 @@ body {
 
 button {
     display: inline-block;
-    background-color: #bc3d2a;
+    background-color: #c49846;
     border-radius: 20px;
     border: 4px double #cccccc;
     color: #eeeeee;
@@ -81,7 +81,7 @@ button {
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
-    outline: solid #77281c;
+    outline: solid #F6CC7C;
 }
 
 button span {
@@ -125,21 +125,21 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-    outline: solid #77281c;
+    outline: solid #F6CC7C;
     outline-width: 5px;
 }
 
 body {
-    background-color: #242B2E;
+    background-color: #18101D;
     color: white;
 }
 
 .box {
     max-width: 800px;
-    background-color: rgba(49, 21, 3, 0.144);
+    background-color: rgba(92, 78, 0, 0.233);
     overflow-wrap: break-word;
     border-radius: 20px;
-    outline: solid #77281c;
+    outline: solid #F6CC7C;
     outline-width: 5px;
     margin: 0px auto 20px auto;
     margin-bottom: 15px;
@@ -236,6 +236,7 @@ body {
 .twitter:hover {
     opacity: 0.7;
 }
+
 p {
     color: rgb(255, 255, 255);
     text-align: center

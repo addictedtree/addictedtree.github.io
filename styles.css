@@ -8,39 +8,6 @@ body {
     font-weight: bolder;
 }
 
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-    opacity: 0.5;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-twitter {
-    background: linear-gradient(45deg, #25608d, #55ACEE);
-    color: white;
-    position: fixed;
-    bottom: 0;
-    margin-bottom: 10px;
-    margin-left: 5px;
-}
-
-.fa-youtube {
-    background: linear-gradient(45deg, #830b00, #ff1500);
-    color: white;
-    position: fixed;
-    bottom: 0;
-    margin-bottom: 10px;
-    margin-left: 95px;
-}
-
 .glow-on-hover {
     width: 355px;
     height: 75px;
@@ -57,7 +24,7 @@ body {
 
 .glow-on-hover:before {
     content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background: #77281c;
     position: absolute;
     top: -2px;
     left: -2px;
@@ -154,7 +121,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-    outline: dashed #77281c;
+    outline: solid #77281c;
     outline-width: 5px;
 }
 
@@ -165,18 +132,20 @@ body {
 
 .box {
     max-width: 800px;
-    background-color: #ffffff25;
+    background-color: rgba(49, 21, 3, 0.144);
     overflow-wrap: break-word;
     border-radius: 20px;
     outline: solid #77281c;
     outline-width: 5px;
-    display: block;
     margin: 0px auto 20px auto;
     margin-bottom: 15px;
     padding-top: 0.5px;
     padding-bottom: 1px;
     position: relative;
     padding: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .box::before {
@@ -235,6 +204,33 @@ body {
     opacity: 0.7;
 }
 
+.youtube {
+    width: 100px;
+    outline: dashed #00000000;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 7px;
+    margin-left: 81px;
+    opacity: 0.5;
+}
+
+.youtube:hover {
+    opacity: 0.7;
+}
+
+.twitter {
+    width: 68px;
+    outline: dashed #00000000;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 12px;
+    margin-left: 8px;
+    opacity: 0.5;
+}
+
+.twitter:hover {
+    opacity: 0.7;
+}
 p {
     color: rgb(255, 255, 255);
     text-align: center

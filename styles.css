@@ -14,6 +14,10 @@
 		opacity: 50%;
 	}
 
+    .discord:hover, .twitter:hover, .youtube:hover, .steam:hover {
+        opacity: 0.5;
+    }
+
 }
 
 .glow-on-hover {

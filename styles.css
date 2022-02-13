@@ -195,43 +195,47 @@ body {
 }
 
 .discord {
-    width: 84px;
+    width: 96px;
     outline: dashed #00000000;
     top: 0;
-    left: 5px;
+    left: 1.5px;
     display: block;
     position: fixed;
     transition-duration: 0.3s;
+    margin-top: 10px;
 }
 
 .steam {
     width: 84px;
     outline: dashed #00000000;
     top: 100px;
-    left: 5px;
+    left: 10px;
     display: block;
     position: fixed;
     transition-duration: 0.3s;
+    margin-top: 10px;
 }
 
 .youtube {
     width: 84px;
     outline: dashed #00000000;
     top: 200px;
-    left: 5px;
+    left: 10px;
     display: block;
     position: fixed;
     transition-duration: 0.3s;
+    margin-top: 10px;
 }
 
 .twitter {
     width: 84px;
     outline: dashed #00000000;
     top: 300px;
-    left: 5px;
+    left: 10px;
     display: block;
     position: fixed;
     transition-duration: 0.3s;
+    margin-top: 10px;
 }
 
 .discord:hover {

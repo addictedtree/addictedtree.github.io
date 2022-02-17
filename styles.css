@@ -114,6 +114,7 @@ button span:after {
 
 button:hover {
     background-color: #cab4ff;
+    transform: scale(1.05);
 }
 
 button:hover span {

@@ -3,6 +3,7 @@
         background-image: url(images/background.png);
         background-size: cover;
         background-repeat: no-repeat;
+	background-attachment: fixed;
         font-family: 'Rubik', sans-serif;
         font-size: x-large;
         font-weight: bolder;

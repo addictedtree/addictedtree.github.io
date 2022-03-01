@@ -21,6 +21,10 @@
 
 }
 
+body {
+    text-align: center;
+}
+
 .glow-on-hover {
     width: 345px;
     height: 75px;
@@ -128,8 +132,7 @@ button:hover span:after {
     right: 0;
 }
 
-.material-icons {
-    margin: 0;
+.icons {
     width: 80px;
     outline: #ffffff00;
 }
@@ -287,9 +290,8 @@ p {
     transition: 0.5s;
   }
   
-  /* Dropdown Content (Hidden by Default) */
+  /* Dropdown Content */
   .dropdown-content {
-    display: none;
     position: absolute;
     background-color: #c4984642;
     backdrop-filter: blur(10px);
@@ -307,6 +309,7 @@ p {
     padding: 10px;
   }
   
+
   /* Links inside the dropdown */
   .dropdown-content a {
     color: white;
@@ -328,4 +331,13 @@ p {
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #c4984642; backdrop-filter: blur(5px);
+}
+
+hr {
+    width: 500px;
+    height: 3px;
+    color: white;
+    border-style: none;
+    background-color: white;
+    border-radius: 2px;
 }

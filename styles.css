@@ -31,12 +31,12 @@ body {
     border: none;
     outline: none;
     color: rgb(255, 255, 255);
-    background: #F6CC7C;
+    background: #9A0E78;
     cursor: pointer;
     position: relative;
     z-index: 0;
     border-radius: 20px;
-    outline: solid #F6CC7C;
+    outline: solid #f319bc;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -45,7 +45,7 @@ body {
 
 .glow-on-hover:before {
     content: '';
-    background: #f3bc57;
+    background: #9A0E78;
     position: absolute;
     top: -2px;
     left: -2px;
@@ -65,7 +65,7 @@ body {
 }
 
 .glow-on-hover:active:after {
-    background: #8f6e31;
+    background: #720a58;
 }
 
 .glow-on-hover:hover:before {
@@ -78,7 +78,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #c49846;
+    background: #9A0E78;
     left: 0;
     top: 0;
     border-radius: 20px;
@@ -86,7 +86,7 @@ body {
 
 button {
     display: inline-block;
-    background-color: #c49846;
+    background-color: #9A0E78;
     border-radius: 20px;
     border: 4px double #cccccc;
     color: #eeeeee;
@@ -98,7 +98,7 @@ button {
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
-    outline: solid #F6CC7C;
+    outline: solid #f319bc;
 }
 
 button span {
@@ -118,7 +118,7 @@ button span:after {
 }
 
 button:hover {
-    background-color: #cab4ff;
+    background-color: #eeb4ff;
     transform: scale(1.05);
 }
 
@@ -145,7 +145,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
-    outline: solid #F6CC7C;
+    outline: solid #f319bc;
     outline-width: 5px;
 }
 
@@ -156,10 +156,10 @@ body {
 
 .box {
     max-width: 570px;
-    background-color: rgba(92, 78, 0, 0.233);
+    background-color: rgba(92, 0, 84, 0.233);
     overflow-wrap: break-word;
     border-radius: 20px;
-    outline: solid #F6CC7C;
+    outline: solid #f319bc;
     outline-width: 5px;
     margin: 0px auto 20px auto;
     margin-bottom: 15px;
@@ -293,13 +293,13 @@ p {
   /* Dropdown Content */
   .dropdown-content {
     position: absolute;
-    background-color: rgba(92, 78, 0, 0.233);
+    background-color: rgba(92, 0, 84, 0.233);
     backdrop-filter: blur(10px);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     border-radius: 20px;
-    outline: solid #F6CC7C;
+    outline: solid #f319bc;
     outline-width: 5px;
     margin-left: auto;
     margin-right: auto;
@@ -324,7 +324,7 @@ p {
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #8f6e3181;}
+  .dropdown-content a:hover {background-color: #84318f81;}
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block; transition: 0.5s; margin-left: auto; margin-right: auto;}
@@ -333,14 +333,12 @@ p {
   .dropdown:hover .dropbtn {background-color: #c4984642; backdrop-filter: blur(5px);
 }
 
-hr {
-    width: 500px;
-    height: 3px;
-    color: white;
-    border-style: none;
-    background-color: white;
-    border-radius: 2px;
-}
+hr { border: 2px solid rgb(255, 255, 255);
+     width: 87%;
+     margin: auto;
+     margin-top: 2%;
+     margin-bottom: 2%;
+   }
 
 .social {
     width: 345px;
@@ -348,12 +346,12 @@ hr {
     border: none;
     outline: none;
     color: rgb(255, 255, 255);
-    background: #F6CC7C;
+    background: #9A0E78;
     cursor: pointer;
     position: relative;
     z-index: 0;
     border-radius: 20px;
-    outline: solid #F6CC7C;
+    outline: solid #f319bc;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -362,7 +360,7 @@ hr {
 
 .social:before {
     content: '';
-    background: #f3bc57;
+    background: #9A0E78;
     position: absolute;
     top: -2px;
     left: -2px;
@@ -382,7 +380,7 @@ hr {
 }
 
 .social:active:after {
-    background: #8f6e31;
+    background: #720a58;
 }
 
 .social:hover:before {
@@ -395,7 +393,7 @@ hr {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #c49846;
+    background: #9A0E78;
     left: 0;
     top: 0;
     border-radius: 20px;

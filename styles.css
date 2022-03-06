@@ -1,6 +1,6 @@
 @media screen {
     body {
-        background-image: url(images/background.png);
+        background-image: url(images/background.svg);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -170,6 +170,10 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
 }
 
 .box::before {

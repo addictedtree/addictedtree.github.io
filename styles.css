@@ -248,7 +248,7 @@ body {
     z-index: 1;
     border-radius: 20px;
     outline: solid #f319bda6;
-    outline-width: 3px;
+    outline-width: 1.5px;
     margin-left: auto;
     margin-right: auto;
     transition: 0.5s;
@@ -289,7 +289,7 @@ hr { border: 2px solid #f319bda6;
    }
 
 .social {
-    width: 345px;
+    width: 315px;
     height: 75px;
     border: none;
     outline: none;
